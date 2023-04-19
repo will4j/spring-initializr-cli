@@ -1,0 +1,15 @@
+# use $ spring help init & $ spring init --list to find support options
+type: maven-project
+language: java
+boot-version: "3.0.5"
+group-id: net.will4j
+artifact-id: jea
+name: maven-single-module
+description: java enterprise application
+package-name: net.will4j.jea
+packaging: jar
+java-version: "17"
+version: 0.0.1-SNAPSHOT
+dependencies: ["lombok", "web", "hateoas", "webflux", "thymeleaf", "mybatis", "mysql", "data-redis",
+               "data-redis-reactive", "pulsar", "pulsar-reactive", "actuator"]
+    
