@@ -30,4 +30,4 @@ tasks:
   test:maven-project-single-module:
     desc: single module maven project
     cmds:
-      - python main.py --config-file templates/maven-project-single-module.yaml -f outputs
+      - python spring_initializr_cli.py --config-file templates/maven-project-single-module.yaml -f outputs
