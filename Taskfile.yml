@@ -31,3 +31,8 @@ tasks:
     desc: single module maven project
     cmds:
       - python spring_initializr_cli.py --config-file templates/maven-project-single-module.yaml -f outputs
+
+  test:gradle-groovy-single-module:
+    desc: single module gradle groovy project
+    cmds:
+      - python spring_initializr_cli.py --config-file templates/gradle-project-single-module.yaml -f outputs

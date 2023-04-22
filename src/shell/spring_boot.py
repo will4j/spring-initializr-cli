@@ -5,7 +5,7 @@ import subprocess
 def execute_spring_init(init_param: dict, target_dir, force=False):
     def option_cmd(option_name: str):
         option_key = option_name.replace('-', '_')
-        if option_key in option_name:
+        if option_key in init_param:
             return [f"--{option_name}", init_param[option_key]]
         return []
 
