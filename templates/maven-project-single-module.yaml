@@ -1,7 +1,7 @@
 # use $ spring help init & $ spring init --list to find support options
 type: maven-project
 language: java
-boot_version: "3.0.6"
+boot_version: "3.1.0"
 group_id: net.will4j
 artifact_id: jea
 name: maven-project-single-module

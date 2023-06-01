@@ -1,0 +1,14 @@
+name: test
+version: "1.0"
+test_value: test value
+render_value: "{{ test_value }}"
+group_id: net.will4j
+artifact_id: jea
+dependencies: ["lombok", "web"]
+extra_dependencies:
+  - group_id: "{{ group_id }}"
+    artifact_id: "{{ artifact_id }}-api"
+    version: "{{ version }}"
+  - group_id: "{{ group_id }}"
+    artifact_id: "{{ artifact_id }}-biz"
+    version: "{{ version }}"

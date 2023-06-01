@@ -1,7 +1,7 @@
 # use $ spring help init & $ spring init --list to find support options
 type: gradle-project
 language: java
-boot_version: "3.0.6"
+boot_version: "3.1.0"
 group_id: net.will4j
 artifact_id: jea
 name: gradle-project-single-module
@@ -10,8 +10,7 @@ package_name: net.will4j.jea
 packaging: jar
 java_version: "17"
 version: 0.0.1-SNAPSHOT
-dependencies: ["lombok", "web", "hateoas", "webflux", "thymeleaf", "mybatis", "mysql", "data-redis",
-               "data-redis-reactive", "pulsar", "pulsar-reactive", "actuator"]
+dependencies: ["lombok", "web", "hateoas", "thymeleaf", "mybatis", "mysql", "data-redis", "actuator"]
 extra_dependencies:
   - group_id: "{{ group_id }}"
     artifact_id: "{{ artifact_id }}-api"
